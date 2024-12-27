@@ -10,8 +10,8 @@ import { assets } from '../assets';
 const Home = () => {
     return (
         <>
-            <div className='flex items-center sm:gap-32 justify-between flex-wrap mb-10'>
-                <div className='max-w-[480px] order-2 mt-10   sm:mt-20 text-gray-100 '>
+            <div className='flex items-center gap-5 sm:gap-32 justify-between flex-wrap mb-10'>
+                <div className='max-w-[480px] order-2 mt-10  sm:mt-20 text-gray-100 '>
                     <p className='text-sm mb-1 word-spacing-widest  tracking-widest'>Software Developer</p>
 
                     <h1 className='text-6xl tracking-widest'>Hello I'm  <br />Aman <span className='text-primary'>Maurya</span></h1>
@@ -38,7 +38,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='w-[380px] max-w-[480px] mt-10 order-1  sm:mt-20 text-gray-100 '>
+                <div className='w-[380px] max-w-[480px] mt-5 order-1  sm:mt-20 text-gray-100 '>
                     <div className='border-4  p-6  border-t-transparent border-b-transparent border-primary  rounded-full overflow-hidden animate-pulse'>
                         <img src={assets.photo} className='translate-y-6' width={280} alt="" />
                     </div>
