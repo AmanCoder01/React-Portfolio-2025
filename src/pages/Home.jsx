@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
             <div className='flex items-center gap-5 sm:gap-32 justify-between flex-wrap mb-10'>
-                <div className='max-w-[480px] sm:order-2 mt-10  sm:mt-20 text-gray-100 '>
+                <div className='max-w-[480px] order-2 sm:order-1 mt-10  sm:mt-20 text-gray-100 '>
                     <p className='text-sm mb-1 word-spacing-widest  tracking-widest'>Software Developer</p>
 
                     <h1 className='text-6xl tracking-widest'>Hello I'm  <br />Aman <span className='text-primary'>Maurya</span></h1>
