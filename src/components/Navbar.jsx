@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { AiOutlineMenuFold } from "react-icons/ai";
+
 
 const Navbar = () => {
     return (
@@ -7,6 +9,9 @@ const Navbar = () => {
             <div className='flex items-center justify-between '>
                 <Link to="/" className='text-3xl text-gray-100'>Aman <span className='text-primary text-4xl'>.</span></Link>
 
+                <div className='sm:hidden'>
+                    <AiOutlineMenuFold className='cursor-pointer' size={26} />
+                </div>
 
                 <div className='hidden sm:flex items-center gap-6   '>
                     <ul className='flex items-center gap-2 sm:gap-8  '>
