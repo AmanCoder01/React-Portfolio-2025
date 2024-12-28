@@ -33,10 +33,10 @@ const Home = () => {
                         className='mt-6 text-sm word-spacing-widest  tracking-widest' >I specialize in designing, coding, and maintaining software applications that address user needs. My expertise spans various programming languages and development tools, enabling me to craft efficient and scalable solutions.</motion.p>
 
                     <div className='mt-10 flex items-center gap-2  sm:gap-4'>
-                        <p className='flex items-center sm:gap-2 whitespace-nowrap uppercase border-2 border-primary rounded-full  max:w-52 py-2 px-3'>
+                        <a download href={assets.amanpdf} className='cursor-pointer flex items-center sm:gap-2 whitespace-nowrap uppercase border-2 border-primary rounded-full  max:w-52 py-2 px-3'>
                             Download cv
                             <AiOutlineDownload size={20} />
-                        </p>
+                        </a>
                         <a href='https://github.com/AmanCoder01' target='_blank' className='ml-3 sm:ml-6 border rounded-full w-10 h-10 flex items-center justify-center border-primary'>
                             <GrGithub color='#1fe81c' size={24} />
                         </a>
