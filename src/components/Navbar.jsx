@@ -23,6 +23,9 @@ const Navbar = () => {
                             <Link to="/resume">
                                 <li className='  text-lg'>Resume</li>
                             </Link>
+                            <Link to="/work">
+                                <li className='  text-lg'>Work</li>
+                            </Link>
                         </ul>
                     </div>
 
@@ -41,7 +44,7 @@ const Navbar = () => {
                         <Link to="/resume">
                             <li className='text-gray-100 hover:text-gray-300  hover:border-b-2 border-b-green-500  text-lg'>Resume</li>
                         </Link>
-                        <Link to="/">
+                        <Link to="/work">
                             <li className='text-gray-100 hover:text-gray-300  hover:border-b-2 border-b-green-500  text-lg'>Work</li>
                         </Link>
                         <Link to="/">
