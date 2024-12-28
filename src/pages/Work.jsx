@@ -12,9 +12,17 @@ const myWork = [
         "tech": ["MERN", "Framer Motion", "Docker", "AI"],
         "github": "https://github.com/AmanCoder01/SAAS-Imagify",
         "live": "https://imagify-ai-sigma.vercel.app/"
+    }, {
+        "id": 2,
+        "title": "MixVibe - Music ",
+        "description": "A music streaming platform with a simple UI/UX",
+        "image": assets.mixvibe,
+        "tech": ["MERN", "Google Integration"],
+        "github": "https://github.com/AmanCoder01/MIXVIBE-MusicVideoWebApp",
+        "live": "https://mixvibe.vercel.app/"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "ToDo App",
         "description": "A simple to-do list app",
         "image": assets.todo,
@@ -48,8 +56,8 @@ const Work = () => {
             {
                 myWork.map((item, index) => (
                     show === item.id &&
-                    <div key={index} className='flex flex-col md:flex-row items-center gap-10  justify-between'>
-                        <div className='w-full sm:max-w-[480px] order-2 md:order-2'>
+                    <div key={index} className='flex flex-col md:flex-row items-center  gap-10  justify-between'>
+                        <div className='w-full sm:max-w-[480px] order-2 md:order-1'>
                             <h1 className='text-6xl font-semibold'>0{item.id}</h1>
                             <h1 className='mt-4 text-5xl'>{item.title}</h1>
                             <p className='text-lg my-2 mb-3 text-gray-500'>{item.description}</p>
@@ -71,7 +79,7 @@ const Work = () => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='order-1 md:order-2'>
                             <img src={item.image} className='object-contain rounded-md w-[480px] ' alt="" />
                         </div>
 

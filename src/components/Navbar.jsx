@@ -12,19 +12,19 @@ const Navbar = () => {
                 <div className='sm:hidden relative group'>
                     <AiOutlineMenuFold className='cursor-pointer ' size={26} />
 
-                    <div className='absolute hidden bg-white group-hover:block  top-6 right-0 z-10 text-black rounded '>
-                        <ul className='p-3'>
+                    <div className='absolute hidden bg-gray-800 text-white group-hover:block  top-8 right-0 z-10 rounded '>
+                        <ul className='px-6 py-3'>
                             <Link to="/">
-                                <li className='  text-lg'>Home</li>
+                                <li className='  text-lg hover:border-b-2 border-primary'>Home</li>
                             </Link>
                             <Link to="/services">
-                                <li className='  text-lg'>Services</li>
+                                <li className='text-lg mt-2 hover:border-b-2 border-primary'>Services</li>
                             </Link>
                             <Link to="/resume">
-                                <li className='  text-lg'>Resume</li>
+                                <li className='text-lg mt-2 hover:border-b-2 border-primary'>Resume</li>
                             </Link>
                             <Link to="/work">
-                                <li className='  text-lg'>Work</li>
+                                <li className=' text-lg mt-2 hover:border-b-2 border-primary'>Work</li>
                             </Link>
                         </ul>
                     </div>
