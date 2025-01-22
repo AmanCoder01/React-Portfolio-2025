@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Services from './pages/Services'
 import Resume from './pages/Resume'
 import Work from './pages/Work'
+import Myfiles from './pages/Myfiles'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/files" element={<Myfiles />} />
       </Routes>
     </div>
   )
